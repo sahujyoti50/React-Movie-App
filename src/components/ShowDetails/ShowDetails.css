@@ -1,0 +1,26 @@
+li{
+    list-style:none;
+    text-align: center;
+}
+.movie-display{
+    height:630px;
+    width:500px;
+    box-shadow: 3px 5px 10px grey;
+    margin:auto;
+    border-radius: 3rem 0 3rem 0;
+    transition: height 1s;
+}
+.movie-details-img{
+    width:500px;
+    height: 630px;
+    border-radius: 2rem 0 2rem 0;
+    /* padding: 20px 0px; */
+}
+.movie-details-ul{
+padding: 0px;
+}
+
+.movie-display:hover {
+    height: 750px;
+ 
+  }
